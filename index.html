@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         :root {
             --blue: #2C98F0;
             --green: #00FFC2;
@@ -26,11 +31,17 @@
             background-color: var(--white);
         }
         h1 {
-            font-size: 2.5rem;
+            font-size: 5vw;
         }
         h2 {
             font-size: 2rem;
+            margin: 1rem;
         }
+
+        .no-margin-left {
+            margin-left: 0;
+        }
+
         h3 {
             font-size: 1.5rem;
         }
@@ -38,9 +49,13 @@
             font-size: 1rem;
         }
 
+        p {
+            margin: 1rem;
+        }
+
         .row {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
         }
 
         .row > * {
@@ -48,11 +63,16 @@
             margin: 1rem;
         }
 
+        .header-bg {
+            background-image: url("bg.svg");
+            background-size: cover;
+        }
+
         .card {
             border-radius: 8px;
             box-shadow: 0px 0px 16px #3333;
             background-color: white;
-            padding: 1rem;
+            padding: 1.5rem;
             margin: 1rem;
         }
 
@@ -80,6 +100,20 @@
             font-weight: bold;
             text-decoration: none;
             padding: 1rem 1.5rem;
+            display: inline-block;
+            transition: all 0.2s ease-in-out;
+            border: 2px solid var(--green);
+            margin: 2rem;
+        }
+
+        .btn:hover {
+            background-color: var(--white);
+        } 
+
+        .btn.secondary {
+            background-color: var(--white);
+            border: 2px solid var(--blue);
+            color: var(--blue);
         }
 
         .gap {
@@ -108,45 +142,72 @@
             background-color: var(--blue);
             color: white;
         }
+
+        .tx-big {
+            font-size: 1.5rem;
+        }
+
+        .icon {
+            width: 100px;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
     </style>
 </head>
 <body>
-    <nav class="row">
-        <ul>
-            <li class="row">
-                <a class="nav-link" href="#">Quem somos</a>
-                <a class="nav-link" href="#">Como funciona</a>
-                <a class="nav-link" href="#">Mentoria</a>
-                <a class="nav-link" href="#">Smartmoney</a>
-                <a class="nav-link" href="#">Contato</a>
-            </li>
-        </ul>
-        <div class="row">
-            <a href="#">Login</a>
-            <a href="#">Faça seu diagnóstico gratuíto</a>    
-        </div>
-    </nav>
+    <div class="header-bg">
+        <nav class="row">
+            <ul>
+                <li class="row">
+                    <a class="nav-link" href="#">Quem somos</a>
+                    <a class="nav-link" href="#">Como funciona</a>
+                    <a class="nav-link" href="#">Mentoria</a>
+                    <a class="nav-link" href="#">Smartmoney</a>
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+            <div class="row">
+                <a href="#">Login</a>
+                <a href="#">Faça seu diagnóstico gratuíto</a>    
+            </div>
+        </nav>
+            <div class="container">
+            <header class="text-center gap">
+                <h1>Transforme sua idéia em um negócio de sucesso</h1>
+                <p class="tx-big">Oferecemos mentoria personalizada para startups em fase inicial. Nossa equipe de especialistas ajudará você a transformar sua ideia 
+                    em um negócio lucrativo.</p>  
+                <a class="btn" href="#">Faça seu diagnóstico gratuíto</a>  
+            </header>
+        </div>    
+    </div>
     <div class="container">
-        <header class="text-center gap">
-            <h1>Transforme sua idéia em um negócio de sucesso</h1>
-            <p>Oferecemos mentoria personalizada para startups em fase inicial. Nossa equipe de especialistas ajudará você a transformar sua ideia 
-                em um negócio lucrativo.</p>  
-            <a class="btn" href="#">Faça seu diagnóstico gratuíto</a>  
-        </header>
-    
         <main>
             <section>
                 <div class="row">
                     <div>
-                        <h2>Quem somos?</h2>
-                        <p>
+                        <h2 class="no-margin-left">Quem somos?</h2>
+                        <p class="tx-big">
                             Somos uma plataforma que ajuda empreendedores em sua fase inicial a terem sucesso.
                         </p>
                         <p>
                             Nós te ajudamos a se preparar para o mercado. Oferecemos um serviço de classificação e fornecemos mentores especializados em cada estágio do processo.         </p>
                         <p>
                             Nosso objetivo é diagnosticar e oferecer uma jornada personalizada que ajuda a desenvolver as competências necessárias para que você esteja pronto para o mercado.
-                Ajudamos sua empresa a crescer e se tornar sustentável, gerenciando melhor seus recursos e tempo para que possam estar melhor preparadas para o mercado.
+                            Ajudamos sua empresa a crescer e se tornar sustentável, gerenciando melhor seus recursos e tempo para que possam estar melhor preparadas para o mercado.
                         </p>            
                     </div>
                     <div>
@@ -158,18 +219,21 @@
                 <h2>Benefícios</h2>
                 <div class="row">
                     <div class="card">
+                        <img src="icon.svg" class="icon" alt="">
                         <h3>Atendimento Personalizado</h3>
                         <p>
                             Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo e garantir que você tenha a melhor experiência possível.
                         </p>
                     </div>
                     <div class="card">
+                        <img src="icon.svg" class="icon" alt="">
                         <h3>Melhor custo benefício do mercado</h3>
                         <p>
                             Com o melhor custo benefício do mercado, garantimos que você tenha a melhor experiência possível. Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo.
                         </p>
                     </div>
                     <div class="card">
+                        <img src="icon.svg" class="icon" alt="">
                         <h3>Acompanhamos você em cada etapa da sua jornada</h3>
                         <p>
                             garantimos que você tenha a melhor experiência possível. Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo.
@@ -222,7 +286,7 @@
                             <img src="check.svg" alt="">
                             Leads Qualificados
                         </div>
-                        <a href="#">Saiba mais</a>
+                        <a class="btn secondary" href="#">Saiba mais</a>
                     </div>
                     <img src="placeholder.webp" alt="">
                 </div>
