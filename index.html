@@ -49,7 +49,7 @@
         }
 
         .card {
-            border-radius: 4px;
+            border-radius: 8px;
             box-shadow: 0px 0px 16px #3333;
             background-color: white;
             padding: 1rem;
@@ -73,6 +73,41 @@
         .nav-link:hover {
             color: var(--blue);
         }
+
+        .btn {
+            background-color: #00FFC2;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+        }
+
+        .gap {
+            gap: 2rem;
+        }
+
+        .person {
+            width: 72px;
+            height: 72px;
+            object-fit: cover;
+            border-radius: 100%;
+            box-shadow: 0px 0px 16px #3333;
+        }
+
+        .pill-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .pill {
+            border-radius: 999px;
+            padding: 4px 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            background-color: var(--blue);
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -92,11 +127,11 @@
         </div>
     </nav>
     <div class="container">
-        <header class="text-center">
+        <header class="text-center gap">
             <h1>Transforme sua idéia em um negócio de sucesso</h1>
             <p>Oferecemos mentoria personalizada para startups em fase inicial. Nossa equipe de especialistas ajudará você a transformar sua ideia 
                 em um negócio lucrativo.</p>  
-            <a href="#">Faça seu diagnóstico gratuíto</a>  
+            <a class="btn" href="#">Faça seu diagnóstico gratuíto</a>  
         </header>
     
         <main>
@@ -142,6 +177,116 @@
                     </div>    
                 </div>
             </section>        
+            <section>
+                <h2>Como funciona?</h2>
+                <div class="row">
+                    <img src="placeholder.webp" alt="">
+                    <div>
+                        <h3>1 - Diagnóstico</h3>
+                        <p>
+                            Faça um diagnostico de 6 passos pra saber o nivel de maturidade da sua empresa
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <h3>2 - Recomendação</h3>
+                        <p>
+                            Receba recomendações de melhorias para as necessidades mapeadas do seu estágio
+                        </p>
+                    </div>
+                    <img src="placeholder.webp" alt="">
+                </div>
+                <div class="row">
+                    <img src="placeholder.webp" alt="">
+                    <div>
+                        <h3>3 - Orientação</h3>
+                        <p>
+                            Após as recomendações voce receberá proposta de mentores qualificados para a sua solução
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section>
+                <h2>Seja um mentor</h2>
+                <div class="row gap">
+                    <div>
+                        <p>
+                            Ajude empresas em sua jornada de validação de mercado transmitindo conhecimento.
+                        </p>
+                        <div class="check">
+                            <img src="check.svg" alt="">
+                            Ganho de volume de atendimento
+                        </div>
+                        <div class="check">
+                            <img src="check.svg" alt="">
+                            Leads Qualificados
+                        </div>
+                        <a href="#">Saiba mais</a>
+                    </div>
+                    <img src="placeholder.webp" alt="">
+                </div>
+            </div>
+            </section>            
+            <section>
+                <h2>Conheça alguns dos nossos mentores</h2>
+                <div class="row">
+                    <div class="card">
+                        <img class="person" src="person.jpg" alt="">
+                        <h3>Fulano da silva</h3>
+                        <p>CEO de alguma coisa</p>
+                        <div class="pill-group">
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                        </div>
+                        <p>
+                            Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo e garantir que você tenha a melhor experiência possível.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img class="person" src="person.jpg" alt="">
+                        <h3>Fulano da silva</h3>
+                        <p>CEO de alguma coisa</p>
+                        <div class="pill-group">
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                        </div>
+                        <p>
+                            Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo e garantir que você tenha a melhor experiência possível.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img class="person" src="person.jpg" alt="">
+                        <h3>Fulano da silva</h3>
+                        <p>CEO de alguma coisa</p>
+                        <div class="pill-group">
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                        </div>
+                        <p>
+                            Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo e garantir que você tenha a melhor experiência possível.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img class="person" src="person.jpg" alt="">
+                        <h3>Fulano da silva</h3>
+                        <p>CEO de alguma coisa</p>
+                        <div class="pill-group">
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                            <span class="pill">Design</span>
+                        </div>
+                        <p>
+                            Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo e garantir que você tenha a melhor experiência possível.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </section>            
         </main>
     </div>
 </body>
