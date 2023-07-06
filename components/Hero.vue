@@ -1,9 +1,9 @@
 <style scoped>
 .header-bg {
-    background-image: url("bg.svg");
+    background-image: url("/bg.svg");
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: auto -30vh;
+    background-position:  -30vh;
 }
 
 header {
