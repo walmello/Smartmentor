@@ -20,10 +20,13 @@
 html {
     font-size: 16px;
     font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
 }
 
-body {
+* {
     margin: 0;
+    padding: 0;
 }
 
 h1 {

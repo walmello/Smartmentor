@@ -4,6 +4,16 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+}
 </style>
 
 <template>
@@ -15,7 +25,7 @@
                     Oferecemos mentoria personalizada para startups em fase inicial. Nossa equipe de especialistas ajudará você a transformar sua ideia 
                     em um negócio lucrativo.
                 </p>  
-                <a class="btn" href="#">Faça seu diagnóstico gratuíto</a>  
+                <a class="btn primary" href="#">Faça seu diagnóstico gratuíto</a>  
             </header>
         </div>    
     </div>

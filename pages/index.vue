@@ -6,6 +6,8 @@
         <Mentoria/>
         <Smartmoney/>
         <Depoimentos/>
+        <Parceiros/>
+        <Contato/>
     </main>
     <Rodape/>
 </template>
