@@ -1,18 +1,25 @@
 <style scoped>
 .header-bg {
     background-image: url("bg.svg");
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
+    background-position: auto -30vh;
 }
 
 header {
-    height: 100vh;
+    padding: 20vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     gap: 1.2rem;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
 }
 </style>
 
@@ -26,6 +33,7 @@ header {
                     em um negócio lucrativo.
                 </p>  
                 <a class="btn primary" href="#">Faça seu diagnóstico gratuíto</a>  
+                <img src="/guy.webp" alt="">
             </header>
         </div>    
     </div>
