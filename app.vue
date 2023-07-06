@@ -1,6 +1,6 @@
 <template>
-  <Navbar/>
-  <NuxtPage/>
+    <Navbar/>
+    <NuxtPage/>
 </template>
 
 <style>
@@ -119,6 +119,16 @@ a:hover {
 .btn.primary {
     --font-color: var(--black);
     --bg-color: var(--green);
+}
+
+/*card*/
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px #3331;
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem;
 }
 
 </style>

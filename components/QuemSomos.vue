@@ -1,3 +1,32 @@
+<style scoped>
+    .row:first-child {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .row:first-child > div:first-child {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        max-width: 700px;
+    }
+
+    .row:nth-child(2) {
+        gap: 2rem;
+    }
+
+
+    .tx-big {
+        font-size: 1.5rem;
+    }
+
+    section {
+        height: fit-content;
+        max-width: 1200px;
+        margin: auto;
+    }
+</style>
+
 <template>
     <section>
         <div class="row">

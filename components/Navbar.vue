@@ -2,34 +2,40 @@
     <div class="fixed-top container">
         <nav class="container">
             <img src="/logo.webp" alt="">
-            <ul>
-                <li>
-                    <a href="">Quem somos</a>
-                </li>
-                <li>
-                    <a href="">Como funciona?</a>
-                </li>
-                <li>
-                    <a href="">Mentoria</a>
-                </li>
-                <li>
-                    <a href="">Smartmentor</a>
-                </li>
-                <li>
-                    <a href="">Contato</a>
-                </li>
-                <li>
-                    <a class="btn" href="">Login</a>
-                </li>
-                <li>
-                    <a class="btn primary" href="">Faça seu diagnóstico</a>
-                </li>
-            </ul>
+            <div>
+                <ul>
+                    <li>
+                        <a href="">Quem somos</a>
+                    </li>
+                    <li>
+                        <a href="">Como funciona?</a>
+                    </li>
+                    <li>
+                        <a href="">Mentoria</a>
+                    </li>
+                    <li>
+                        <a href="">Smartmentor</a>
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+                
+                <ul>
+                    <li>
+                        <a class="btn" href="">Login</a>
+                    </li>
+                    <li>
+                        <a class="btn primary" href="">Faça seu diagnóstico</a>
+                    </li>                    
+                </ul>
+                
+            </div>
         </nav>    
     </div>
 </template>
 
-<style>
+<style scoped>
 
 nav {
     display: flex;
@@ -41,7 +47,12 @@ nav {
     background-color: var(--white);
 }
 
-nav ul {
+nav div {
+    display: flex;
+    gap: 1.5rem;
+}
+
+ul {
     list-style-type: none;
     display: flex;
     gap: 0.5rem;
@@ -49,11 +60,12 @@ nav ul {
     align-items: center;
 }
 
-nav ul li {
+ul li {
     font-weight: 600; 
 }
 
 a {
     font-size: 14px;
+    color: var(--black) !important;
 }
 </style>
