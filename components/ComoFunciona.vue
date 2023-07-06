@@ -2,7 +2,7 @@
     <section>
                 <h2>Como funciona?</h2>
                 <div class="row">
-                    <img src="placeholder.webp" alt="">
+                    <img src="/placeholder.webp" alt="">
                     <div>
                         <h3>1 - Diagnóstico</h3>
                         <p>
@@ -17,10 +17,10 @@
                             Receba recomendações de melhorias para as necessidades mapeadas do seu estágio
                         </p>
                     </div>
-                    <img src="placeholder.webp" alt="">
+                    <img src="/placeholder.webp" alt="">
                 </div>
                 <div class="row">
-                    <img src="placeholder.webp" alt="">
+                    <img src="/placeholder.webp" alt="">
                     <div>
                         <h3>3 - Orientação</h3>
                         <p>

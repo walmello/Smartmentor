@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <img class="person" src="person.jpg" alt="">
+        <img class="person" src="/person.jpg" alt="">
         <h3>Fulano da silva</h3>
         <p>CEO de alguma coisa</p>
         <div class="pill-group">

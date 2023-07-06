@@ -1,7 +1,7 @@
 <template>
     <div class="fixed-top container">
         <nav class="container">
-            <img src="logo.webp" alt="">
+            <img src="/logo.webp" alt="">
             <ul>
                 <li>
                     <a href="">Quem somos</a>

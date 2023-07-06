@@ -15,26 +15,26 @@
                 </p>            
             </div>
             <div>
-                <img src="placeholder.webp" alt="">
+                <img src="/placeholder.webp" alt="">
             </div>
         </div>
         <div class="row">
             <div class="card">
-                <img src="icon.svg" class="icon" alt="">
+                <img src="/icon.svg" class="icon" alt="">
                 <h3>Atendimento Personalizado</h3>
                 <p>
                     Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo e garantir que você tenha a melhor experiência possível.
                 </p>
             </div>
             <div class="card">
-                <img src="icon.svg" class="icon" alt="">
+                <img src="/icon.svg" class="icon" alt="">
                 <h3>Melhor custo benefício do mercado</h3>
                 <p>
                     Com o melhor custo benefício do mercado, garantimos que você tenha a melhor experiência possível. Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo.
                 </p>
             </div>
             <div class="card">
-                <img src="icon.svg" class="icon" alt="">
+                <img src="/icon.svg" class="icon" alt="">
                 <h3>Acompanhamos você em cada etapa da sua jornada</h3>
                 <p>
                     garantimos que você tenha a melhor experiência possível. Oferecemos um atendimento personalizado para cada cliente e estamos aqui para ajudar a atender suas necessidades. Nossa equipe de especialistas está pronta para ajudar em qualquer etapa do processo.
